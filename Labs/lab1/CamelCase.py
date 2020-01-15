@@ -8,7 +8,7 @@ def printOutput(words):
             print(f'{word.title()}',end='')
         else:
             print(f'{word.lower()}',end='')
-
+# stuff
 if __name__ == '__main__':
     words=getInput()
     printOutput(words)
