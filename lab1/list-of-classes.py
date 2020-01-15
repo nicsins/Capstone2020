@@ -1,5 +1,5 @@
 from enum import Enum
-from library import inUtils
+# create enum class to use for addressing numbers sequences in input
 class Numth(Enum):
     first=1
     second=2
