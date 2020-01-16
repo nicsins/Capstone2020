@@ -1,5 +1,5 @@
 def getInput():
-    
+
     words=input('Please Enter a SenTence').lower()
     return words.split()
 
