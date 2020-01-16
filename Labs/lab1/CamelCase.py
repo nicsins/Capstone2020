@@ -3,11 +3,8 @@ def getInput():
     return words.split()
 
 def printOutput(words):
-    for word in words :
-        if (word != words[0]):
-            print(word.title(),end='')
-        else:
-            print(word.lower(),end='')
+    [ print(word.title(),end='')if word != words[0] else print(word.lower(),end='') for word in words]
+
 # stuff
 if __name__ == '__main__':
     words=getInput()
