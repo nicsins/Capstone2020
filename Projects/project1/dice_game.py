@@ -1,13 +1,13 @@
 from random import randint as r
-
+#simple die class
 class Die():
     roll=r(1,6)
 
 
-
+# get player name
 def __getattr__():
     return input('please enter your name')
-
+# determine palyers rolls
 def player_roll():
     return Die.roll
 
