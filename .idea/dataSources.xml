@@ -10,11 +10,29 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="miles.db" uuid="ea9522d4-e98e-4509-a0fa-6c7bc83cf0b1">
+    <data-source source="LOCAL" name="cat.sqlite" uuid="0c6330c7-27c2-47d7-afd2-adef2d37f58a">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\nicbe\PycharmProjects\Capstone2020\hello_python_unittest\miles_db\miles.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/databaselab/peewee/cat.sqlite</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mileage.db" uuid="5d309a7c-37c7-4f0d-8c60-fe87f29e35ab">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/hello_python_unittest/miles_db/mileage.db</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="miles.db" uuid="c03de74a-a5d6-4f89-9d2e-fd3c9f2c432a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/hello_python_unittest/miles_db/miles.db</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
