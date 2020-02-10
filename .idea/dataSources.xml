@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="identifier.sqlite" uuid="83dc2d5a-19d8-46f1-9362-ed7d3c3786f0">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
-    </data-source>
     <data-source source="LOCAL" name="cat.sqlite" uuid="0c6330c7-27c2-47d7-afd2-adef2d37f58a">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -28,11 +19,11 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="miles.db" uuid="c03de74a-a5d6-4f89-9d2e-fd3c9f2c432a">
+    <data-source source="LOCAL" name="part1db" uuid="1eb95e4e-2e51-4e4b-ae1e-84e911af6b2f">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/hello_python_unittest/miles_db/miles.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/databaselab\..\..\CapstoneDatabases\lab\part1db</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
