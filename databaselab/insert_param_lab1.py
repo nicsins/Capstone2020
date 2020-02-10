@@ -12,7 +12,7 @@ catches = int(input('Enter number of catches (as an integer): '))
 
 # Parameters. Use a ? as a placeholder for data that will be filled in
 # Provide data as a second argument to .execute, as a tuple of values
-conn.execute('insert into phones values (?,?, ?)', (full_name,country,catches))
+conn.execute('insert into Records  values (?,?, ?)', (full_name,country,catches))
 
 conn.commit()  # Ask the database to save changes
 
