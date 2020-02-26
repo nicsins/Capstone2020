@@ -34,9 +34,11 @@ def who_wins(choice,comp_choice):
         return f'we both chose the same thing its a tie!'
 
     elif (choice == roshambo[0] and comp_choice == roshambo[1]) or (choice == roshambo[1] and comp_choice == roshambo[2]) or (choice == roshambo[2] and comp_choice == roshambo[0]) :
-        return print(f' {choice} beats {comp_choice} You win!')
+        # return print(f' {choice} beats {comp_choice} You win!')
+        return (f' {choice} beats {comp_choice} You win!')
 
     else:
+        # return f'{comp_choice} beats {choice} the computer wins!!'
         return f'{comp_choice} beats {choice} the computer wins!!'
 
 # prints the winner
@@ -63,9 +65,9 @@ def game_loop(name):
 
 if __name__ == '__main__':
     # exception handling on simple level
-   try:
+   # try:
        name = choose_name()
        game_loop(name)
 
-   except Exception as E:
-       print(E)
+   # except Exception as E:
+   #     print(E)
